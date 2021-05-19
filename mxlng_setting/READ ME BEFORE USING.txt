@@ -1,0 +1,102 @@
+
+███╗   ██╗██████╗            ██╗  
+████╗  ██║██╔══██╗           ╚██╗ 
+██╔██╗ ██║██████╔╝█████╗█████╗╚██╗
+██║╚██╗██║██╔══██╗╚════╝╚════╝██╔╝
+██║ ╚████║██████╔╝           ██╔╝ 
+╚═╝  ╚═══╝╚═════╝            ╚═╝  
+                                 
+put your link on mxlng.config.php file
+put your mailist on --> file > mxlng_lead > list.txt
+
+           ██╗      ███████╗███╗   ███╗████████╗██████╗     ███████╗███████╗████████╗████████╗██╗███╗   ██╗ ██████╗ ███████╗      ██╗           
+           ╚██╗     ██╔════╝████╗ ████║╚══██╔══╝██╔══██╗    ██╔════╝██╔════╝╚══██╔══╝╚══██╔══╝██║████╗  ██║██╔════╝ ██╔════╝     ██╔╝           
+█████╗█████╗╚██╗    ███████╗██╔████╔██║   ██║   ██████╔╝    ███████╗█████╗     ██║      ██║   ██║██╔██╗ ██║██║  ███╗███████╗    ██╔╝█████╗█████╗
+╚════╝╚════╝██╔╝    ╚════██║██║╚██╔╝██║   ██║   ██╔═══╝     ╚════██║██╔══╝     ██║      ██║   ██║██║╚██╗██║██║   ██║╚════██║    ╚██╗╚════╝╚════╝
+           ██╔╝     ███████║██║ ╚═╝ ██║   ██║   ██║         ███████║███████╗   ██║      ██║   ██║██║ ╚████║╚██████╔╝███████║     ╚██╗           
+           ╚═╝      ╚══════╝╚═╝     ╚═╝   ╚═╝   ╚═╝         ╚══════╝╚══════╝   ╚═╝      ╚═╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝      ╚═╝           
+                                                                                                                                               
+smtpserver --> fill in with the smtp server you're using
+smtpuser   --> fill in with the smtp user you're using
+smtppass   --> fill in the smtp password you use
+smtpport   --> fill in with the smtp port you're using
+priority   --> fill 1 for high priority, fill 0 for normal priority
+--> end <--
+
+           ██╗      ███╗   ███╗ █████╗ ██╗██╗         ███████╗███████╗████████╗████████╗██╗███╗   ██╗ ██████╗ ███████╗      ██╗           
+           ╚██╗     ████╗ ████║██╔══██╗██║██║         ██╔════╝██╔════╝╚══██╔══╝╚══██╔══╝██║████╗  ██║██╔════╝ ██╔════╝     ██╔╝           
+█████╗█████╗╚██╗    ██╔████╔██║███████║██║██║         ███████╗█████╗     ██║      ██║   ██║██╔██╗ ██║██║  ███╗███████╗    ██╔╝█████╗█████╗
+╚════╝╚════╝██╔╝    ██║╚██╔╝██║██╔══██║██║██║         ╚════██║██╔══╝     ██║      ██║   ██║██║╚██╗██║██║   ██║╚════██║    ╚██╗╚════╝╚════╝
+           ██╔╝     ██║ ╚═╝ ██║██║  ██║██║███████╗    ███████║███████╗   ██║      ██║   ██║██║ ╚████║╚██████╔╝███████║     ╚██╗           
+           ╚═╝      ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚══════╝╚══════╝   ╚═╝      ╚═╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝      ╚═╝           
+                                                                                                                                          
+msgfile  --> fill in your letter file name.
+lead    --> fill in the name of your mailist file.
+fromname --> fill the fromname to your liking. if you use the userandom feature, you do not need to fill in this section.
+frommail --> fill frommail to your liking. if you use the userandom feature, you do not need to fill in this section.
+subject  --> fill frommail to your liking. if you use the userandom feature, you do not need to fill in this section.
+--> end <--
+
+           ██╗       ██████╗ ████████╗██╗  ██╗███████╗██████╗       ██╗           
+           ╚██╗     ██╔═══██╗╚══██╔══╝██║  ██║██╔════╝██╔══██╗     ██╔╝           
+█████╗█████╗╚██╗    ██║   ██║   ██║   ███████║█████╗  ██████╔╝    ██╔╝█████╗█████╗
+╚════╝╚════╝██╔╝    ██║   ██║   ██║   ██╔══██║██╔══╝  ██╔══██╗    ╚██╗╚════╝╚════╝
+           ██╔╝     ╚██████╔╝   ██║   ██║  ██║███████╗██║  ██║     ╚██╗           
+           ╚═╝       ╚═════╝    ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝      ╚═╝           
+                                                                                  
+
+userremoveline 		--> fill 1 to use. 0 for not. if this feature is enabled, email-list already sent messages will be removed from your mailist.
+replacement    		--> fill 1 to use. 0 for not. this works to me replace your letter with a predefined format.
+ratio          		--> ratio email per send.
+sleeptime      		--> duration of sending pauses per email in seconds.
+randurl		        --> this is a random url feature. serves to randomize the url with the url you have specified. how to fill it is as follows-->   randurl = array ("http-->//yoururl1.com", "http-->//yoururl2.com", "etc");
+redirect		    --> 1 = use on link [?email=email base64]. 2 = use on link [?a=email base64]. 3 = use on link [?email=email]. 4 = can use all shortlink including google redirect. 5. use mailchip url redirect methode
+fromname_encrypt	--> 1= encrypt email fromname)
+subject_encrypt	    --> 1= encrypt email subject)
+--> end <--
+
+           ██╗      ███████╗██╗   ██╗██████╗      ██╗███████╗ ██████╗████████╗    ███████╗ ██████╗ ██████╗ ███╗   ███╗ █████╗ ████████╗      ██╗           
+           ╚██╗     ██╔════╝██║   ██║██╔══██╗     ██║██╔════╝██╔════╝╚══██╔══╝    ██╔════╝██╔═══██╗██╔══██╗████╗ ████║██╔══██╗╚══██╔══╝     ██╔╝           
+█████╗█████╗╚██╗    ███████╗██║   ██║██████╔╝     ██║█████╗  ██║        ██║       █████╗  ██║   ██║██████╔╝██╔████╔██║███████║   ██║       ██╔╝█████╗█████╗
+╚════╝╚════╝██╔╝    ╚════██║██║   ██║██╔══██╗██   ██║██╔══╝  ██║        ██║       ██╔══╝  ██║   ██║██╔══██╗██║╚██╔╝██║██╔══██║   ██║       ╚██╗╚════╝╚════╝
+           ██╔╝     ███████║╚██████╔╝██████╔╝╚█████╔╝███████╗╚██████╗   ██║       ██║     ╚██████╔╝██║  ██║██║ ╚═╝ ██║██║  ██║   ██║        ╚██╗           
+           ╚═╝      ╚══════╝ ╚═════╝ ╚═════╝  ╚════╝ ╚══════╝ ╚═════╝   ╚═╝       ╚═╝      ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝         ╚═╝           
+                                                                                                                                                           
+<[mxlng_email]>			-->  show the recipient's email ( not random )
+<[mxlng_randomip]>		-->  generate  random ip location
+<[mxlng_randstring]>	-->	 random string
+<[mxlng_date]>			-->  show date format ( not random )
+<[mxlng_time]>			-->  show date format ( not random )
+<[mxlng_user]>			-->  show the recipient's user email ( not random )
+<[mxlng_domain]>		-->  show the recipient's email domain ( not random )
+<[mxlng_number5]>	    -->  generate  random 5 number
+--> end <--
+
+           ██╗      ██╗     ███████╗████████╗████████╗███████╗██████╗     ███████╗ ██████╗ ██████╗ ███╗   ███╗ █████╗ ████████╗      ██╗           
+           ╚██╗     ██║     ██╔════╝╚══██╔══╝╚══██╔══╝██╔════╝██╔══██╗    ██╔════╝██╔═══██╗██╔══██╗████╗ ████║██╔══██╗╚══██╔══╝     ██╔╝           
+█████╗█████╗╚██╗    ██║     █████╗     ██║      ██║   █████╗  ██████╔╝    █████╗  ██║   ██║██████╔╝██╔████╔██║███████║   ██║       ██╔╝█████╗█████╗
+╚════╝╚════╝██╔╝    ██║     ██╔══╝     ██║      ██║   ██╔══╝  ██╔══██╗    ██╔══╝  ██║   ██║██╔══██╗██║╚██╔╝██║██╔══██║   ██║       ╚██╗╚════╝╚════╝
+           ██╔╝     ███████╗███████╗   ██║      ██║   ███████╗██║  ██║    ██║     ╚██████╔╝██║  ██║██║ ╚═╝ ██║██║  ██║   ██║        ╚██╗           
+           ╚═╝      ╚══════╝╚══════╝   ╚═╝      ╚═╝   ╚══════╝╚═╝  ╚═╝    ╚═╝      ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝         ╚═╝           
+                                                                                                                                                   
+<[mxlng_email]>	 				-->  show the recipient's email ( not random )
+<[mxlng_secret_email]> 			-->  show the recipient's email with secret mode ( not random )
+<[mxlng_user]>					-->  show the recipient's user email ( not random )
+<[mxlng_domain]>				-->  show the recipient's email domain ( not random )
+<[mxlng_date]>					-->  show date format ( not random )
+<[mxlng_time]>					-->  show time format ( not random )
+<[mxlng_short]>					-->  show scam link ( not random )
+<[mxlng_subject]>				-->  generate  random subject
+<[mxlng_frommail]>				-->  generate  random from mail
+<[mxlng_fromname]>				-->  generate  random from name
+<[mxlng_randomip]>				-->  generate  random ip location
+<[mxlng_country]>				-->  generate  random country
+<[mxlng_browser]>				-->  generate  random browser
+<[mxlng_os]>					-->  generate  random os
+<[mxlng_randstring]>			-->	 random string
+<[mxlng_number2]>				-->  generate  random 2 number
+<[mxlng_number4]>				-->  generate  random 4 number
+<[mxlng_number6]>				-->  generate  random 6 number
+<[mxlng_number8]>				-->  generate  random 8 number
+<[mxlng_number10]>				-->  generate random 10 number
+--> end <--
